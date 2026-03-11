@@ -1,6 +1,6 @@
 # flashattention的模拟实现--支持行分块计算  tid表示:threadIdx
 # onlinesoftmax的模拟实现
-# rmsnorm 层归一化是爱你
+# rmsnorm 层归一化
 
 '''  
 for i,val in enumerate(s):       # online softmax同时更新 分子分母 res = o / d
